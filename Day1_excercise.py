@@ -1,0 +1,12 @@
+yur_name=input("whats my name \n")
+my_experience=input("my experience \n")
+current_company_name=input("comapny name \n")
+Current_Salary=int(input("current salary\n"))
+Target_Salary=int(input("target salary\n"))
+
+print(f" Name: {yur_name}")
+print(f" Experience: {my_experience}")
+print(f"Company: {current_company_name}")
+print(f" Current Salary:{Current_Salary} LPA")
+print(f"Target Salary:{Target_Salary} LPA ")
+print(f"Salary Jump:{Target_Salary - Current_Salary} LPA ")
